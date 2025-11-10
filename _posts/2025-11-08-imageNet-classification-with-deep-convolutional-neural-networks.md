@@ -40,7 +40,7 @@ AlexNet demonstrated that deep convolutional neural networks, trained on GPUs wi
   The network progressively extracts features—from simple edges in early layers to complex object parts in deeper layers—then uses fully connected layers to classify images.
 
 - **What makes it different?**  
-  Combination of depth (8 learned layers), ReLU for faster training, dropout for regularization, data augmentation, and efficient GPU implementation made training feasible at ImageNet scale.
+  Deep architecture with 8 learned layers, the use of ReLU activations for faster convergence, dropout to reduce overfitting, extensive data augmentation to improve generalization, and an efficient dual-GPU implementation made large-scale ImageNet training computationally feasible.
 
 ═══════════════════════════════════════
 
